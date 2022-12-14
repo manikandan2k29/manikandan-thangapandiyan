@@ -48,3 +48,9 @@ body {
   height: 39px;
 }
 
+.inter-grey-para {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: clamp(16px,2vw,18px);
+  color: #aab088;
+}
