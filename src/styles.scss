@@ -47,4 +47,10 @@ body {
   border: 2px solid rgb(217, 255, 0);
   height: 39px;
 }
-
+.title{
+  font-size: clamp(40px, 5vw, 60px);
+}
+.desc{
+  font-size: clamp(18px, 5vw, 20px);
+  font-weight: 400;
+}
