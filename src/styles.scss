@@ -34,7 +34,6 @@ body {
 
 .btn {
   color: rgb(217, 255, 0);
-  //   background-color: #0a192f;
   background-color: black;
   border: 2px solid rgb(217, 255, 0);
   height: 39px;
@@ -42,14 +41,22 @@ body {
 
 .btn:hover {
   color: black;
-  //   background-color: #0a192f;
   background-color: rgb(217, 255, 0);
   border: 2px solid rgb(217, 255, 0);
   height: 39px;
 }
+
+.inter-grey-para {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: clamp(16px,2vw,18px);
+  color: #aab088;
+}
+
 .title{
   font-size: clamp(40px, 5vw, 60px);
 }
+
 .desc{
   font-size: clamp(18px, 5vw, 20px);
   font-weight: 400;
